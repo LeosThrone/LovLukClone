@@ -1,0 +1,284 @@
+.bannerCont{
+    padding: 4rem 0rem 4rem 0rem;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.bannerSections{
+    width: 40%;
+}
+
+.bannerImg > img{
+    height: 20rem;
+}
+
+.bannerImg{
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerText{
+    gap: 1rem;
+}
+
+.bHeading{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333333;
+}
+
+.bText{
+    color: #4b5563;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+}
+
+.bBtn{
+    background-color: #1C6758;
+    display: flex;
+    color: white;
+    padding: 0.5rem 1rem;
+    gap: 0.5rem;
+    border-radius: 9999px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    transition: linear 200ms;
+}
+
+.bBtn:hover{
+    background-color: #3D8361;
+    gap: 1rem;
+}
+
+.infoStripCont{
+    background-color: #1C6758;
+    color: white;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    align-items: center;
+}
+
+.infoheading{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.infoBoxes{
+    gap: 0.8rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.infoIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.6rem;
+    background-color: rgba(255, 255, 255, 0.26);
+    border-radius: 100%;
+}
+
+.companyCont{
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.cLogos > img{
+    height: 7rem;
+}
+
+.cLogosCont{
+    gap: 6rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.amazon > img {
+    height: 5rem;
+}
+
+.cHeading{
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #333333;
+    font-weight: 600;
+}
+
+.reviewsCont{
+    background-color: #1C6758;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    gap: 12rem;
+}
+
+.reviewsSlogan{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.reviewsInfoText{
+    font-size: 0.8rem;
+}
+
+.reviewsLeftCont{
+    width: 30%;
+    gap: 1rem;
+}
+
+.reviewsRightCont{
+    display: flex;
+    position: relative;
+    gap: 1rem;
+    max-width: 32rem;
+}
+
+#reviewBox{
+    display: inline-flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+.rBtns{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 100%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position:absolute;
+    top: 36%;
+}
+
+.rBtns > img {
+    height: 1.5rem;
+}
+
+#leftBtn{
+    transform: rotate(90deg);
+    left: 0;
+    translate: -4rem;
+    z-index: 40;
+}
+
+#rightBtn{
+    transform: rotate(-90deg);
+    right: 0;
+    translate: 4rem;
+}
+
+.reviews{
+    display: flex;
+    flex-direction: column;
+    width: 32rem;
+    background-color: #E2E8F0;
+    border-radius: 8px;
+    padding: 1rem;
+    box-sizing: border-box;
+    color: #333333;
+    gap: 1rem;
+}
+
+.reviewName{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.reviewText{
+    font-size: 0.9rem;
+}
+
+.reviewCity{
+    font-size: 0.8rem;
+    text-align: right;
+}
+
+.reviewBoxCont{
+    transition: transform 0.2s ease-in-out;
+}
+
+.faqCont{
+    background-color: #EEF2E6;
+    color: #333333;
+    /* padding: rem; */
+    gap: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    justify-content: center;
+}
+
+.faqs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.faqHeadings{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.faqText{
+    font-size: 0.8rem;
+    padding: 0.2rem;
+}
+
+.FAQs{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.faqLeftCont > p{
+    font-size: 0.8rem;
+}
+
+.fBtns{
+    border: none;
+    background-color: none;
+    cursor: pointer;
+}
+
+.fBtns > img{
+    height: 1.5rem;
+}
+
+.faqLeftCont{
+    width: 30%;
+    gap: 1rem;
+}
+
+.faqRightCont{
+    width: 40%;
+    gap: 1.5rem;
+}
+
+.faqsBox{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    border-bottom: 1px solid #33333371;
+    padding-bottom: 0.3rem;
+}
+
+.faqTextCSS {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.4s ease-in, max-height 1s ease-in-out;
+}
+  
+.faqTextCSS.show {
+    opacity: 100%;
+    max-height: 500px;
+}

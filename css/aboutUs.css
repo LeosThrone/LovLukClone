@@ -1,0 +1,66 @@
+.bannerCont{
+    padding: 4rem 0rem 4rem 0rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bannerSections{
+    width: 35%;
+}
+
+.bannerImg > img{
+    height: 25rem;
+}
+
+.bannerImg{
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.bannerText{
+    gap: 1rem;
+}
+
+.bHeading{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #333333;
+}
+
+.bText{
+    color: #333333;
+    font-size: 0.75rem;
+    line-height: 1.2rem;
+}
+
+.storyCont{
+    background-color: #1C6758;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    gap: 10rem;
+    color: white;
+}
+
+.storyContLeft > img{
+    height: 15rem;
+}
+
+.storyContRight{
+    width: 35%;
+    gap: 1rem;
+}
+
+.storyHeading{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.storyText{
+    font-size: 0.75rem;
+    letter-spacing: 0.02rem;
+    font-weight: 400;
+    color: #ffffffE6;
+}
